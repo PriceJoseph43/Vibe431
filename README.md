@@ -1,13 +1,11 @@
-This is a file without a heading
-# File with heading
-<h1 align="center"><img src="https://placekitten.com/300/150"/></h1>
+# This is a file without a heading
 
 This is a file with a top-level HTML heading 1
 
 This is a file with a top-level heading
 import java.awt.Event;
 
-// import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 // import org.junit.jupiter.api.Test;
 
@@ -115,5 +113,10 @@ $ firebase login
                                                                                                                                               endcall:   class Event
                                                                                                                                               ^
   symbol:   class Event
-                                                                                                                                              END 
-                                                                                                                                              {
+                                                                                                                            
+                                                                                                                                {
+Text text text
+text[2 spaces]
+- list item text
+  [2 spaces]
+  list item text
