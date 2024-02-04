@@ -1,7 +1,7 @@
 from django.views.generic import View
+from org.junit.jupiter.api.Assertions import assertEquals
 from rest_framework.views import APIView
-from org.junit.jupiter.api.Assertions import assertEquals
-from org.junit.jupiter.api.Assertions import assertEquals
+
 fruit_stock = {
     'apple': 42,
     'orange': 21,  # [syntax-error]
@@ -42,7 +42,8 @@ class MyHandler(BaseHTTPRequestHandler):
 
 httpd = HTTPServer(('', 8000), MyHandler)
 httpd.serve_forever()
-import static org.junit.jupiter.api.Assertions.assertEquals
+import org.junit.jupiter.api.Assertions.assertEquals
+import static
 
 // import org.junit.jupiter.api.Test;
 
