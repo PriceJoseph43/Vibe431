@@ -1,4 +1,4 @@
-Meta string-style
+# Meta string-style
 
 Meta Security
 This is a file with a top-level HTML heading 1
@@ -114,7 +114,14 @@ $ firebase login
                                                                                                                                               endcall:   class Event
                                                                                                                                               ^
   symbol:   class Event
-                                                                                                                            
+{
+Text text text
+text
+
+- list item text
+
+  list item text
+}
                                                                                                                                 {
 Text text text
 text[2 spaces]
