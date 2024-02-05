@@ -1,14 +1,12 @@
 from _typeshed import SupportsKeysAndGetItem
 from collections.abc import KeysView
-
-
 @SupportsKeysAndGetItem
 class Person:
     def __init__(self, name, age):
         self.name = name
         self.age = age
-      queries = 0
-      def __getitem__(self, item):
+    queries = 0
+    def __getitem__(self, item):
         if item == "name":
           return self.name
         elif item == "age":
